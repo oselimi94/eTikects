@@ -29,7 +29,6 @@ namespace eTikects.Data
         public DbSet<Movie> Movies { get; set; }
         public DbSet<Actor_movie> Actors_Movies { get; set; }
         public DbSet<Cinema> Cinemas { get; set; }
-
         public DbSet<Producer> Producers { get; set; }
 
     }
